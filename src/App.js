@@ -1,12 +1,12 @@
-import React from 'react';
-import Routes from './views/routes';
+import React, { Component } from 'react';
+import Template from './views/Template';
 
-function App() {
-  return (
-    <div>
-      <Routes />
-    </div>
-  );
+class App extends Component {
+  render() {    
+    return (
+    <Template/>
+    );
+  }
 }
 
 export default App;
